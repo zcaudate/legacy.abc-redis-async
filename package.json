@@ -1,0 +1,19 @@
+{
+  "name": "abc-redis-async",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "npx webpack --watch"
+  },
+  "dependencies": {
+    "redis": "3.0.2"
+  },
+  "devDependencies": {
+    "@sucrase/webpack-loader": "^2.0.0",
+    "run-node-webpack-plugin": "^1.3.0",
+    "source-map-support": "^0.5.19",
+    "sucrase": "^3.17.0",
+    "webpack": "^5.12.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
